@@ -1,0 +1,28 @@
+<Window x:Name="customSubWindow" x:Class="scanme.SubWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:scanme"
+        mc:Ignorable="d"
+        Title="Choose Repositories" Height="350" Width="800">
+    <Grid>
+        <DockPanel HorizontalAlignment="Left" Height="255" LastChildFill="False" Margin="10,10,0,0" VerticalAlignment="Top" Width="370">
+            <DataGrid x:Name="dgCustomRepo" Height="255" VerticalAlignment="Top" Width="370"/>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Left" Height="255" LastChildFill="False" Margin="450,10,0,0" VerticalAlignment="Top" Width="330">
+            <ListView x:Name="lvCustomList" Height="255" VerticalAlignment="Top" Width="330">
+                
+            </ListView>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Left" Height="30" LastChildFill="False" Margin="696,274,0,0" VerticalAlignment="Top" Width="75">
+            <Button x:Name="bCustomContinue" Content="Continue" Height="30" VerticalAlignment="Top" Width="75"/>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Left" Height="30" LastChildFill="False" Margin="385,15,0,0" VerticalAlignment="Top" Width="60">
+            <Button x:Name="bAddList" Content="+" Height="30" VerticalAlignment="Top" Width="60" FontWeight="Bold" FontSize="15" />
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Left" Height="30" LastChildFill="False" Margin="385,48,0,0" VerticalAlignment="Top" Width="60">
+            <Button x:Name="bRemoveList" Content="-" Height="30" VerticalAlignment="Top" Width="60" FontWeight="Bold" FontSize="15" />
+        </DockPanel>
+    </Grid>
+</Window>
