@@ -23,7 +23,7 @@ After the prerequisites are installed or met, perform the following steps to use
 
 # Questions and comments.
 Do you have any questions about our projects? Do you have any comments or ideas you would like to share with us?
-You can send your questions and suggestions to us in the Issues section of this repository. We are always looking for great new ideas.
+We are always looking for great new ideas. You can send your questions and suggestions to us in the Issues section of this repository or contact us at ``contact@attosol.com``.
 
 # Additional Resources
 * [Deploy AIP Scanner](https://docs.microsoft.com/en-us/azure/information-protection/deploy-use/deploy-aip-scanner)
